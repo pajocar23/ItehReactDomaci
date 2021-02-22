@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Header from '../Common/Header';
-import image from '../assets/img/home.jpg';
+import image from '../assets/img/ValhalaHD.jpg';
 
 // Re-usable components
 import Services from '../Common/Services';
@@ -14,7 +14,7 @@ class Home extends Component {
                 title="Welcome to our Studio"
                 subtitle="It's nice to meet you"
                 buttonText="Tell me more"
-                link="/services"
+                link="/about"
                 showButton={true}
                 image={image}
                 />
