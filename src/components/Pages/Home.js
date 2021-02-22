@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Header from '../Common/Header';
+import Footer from '../Common/Footer';
 import image from '../assets/img/ValhalaHD.jpg';
 
 // Re-usable components
@@ -21,6 +22,7 @@ class Home extends Component {
 
                 <Services/>
                 <Portfolio/>
+                <Footer/>
             </div>
         );
     }

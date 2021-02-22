@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Header from '../Common/Header';
+import Footer from '../Common/Footer';
 import image from '../assets/img/ACLogo.jpg';
 
 class About extends Component {
@@ -78,6 +79,7 @@ class About extends Component {
             </div>
           </div>
         </section>
+        <Footer/>
       </div>
 
     )
