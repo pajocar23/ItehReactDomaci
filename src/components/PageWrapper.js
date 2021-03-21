@@ -28,7 +28,8 @@ class PageWrapper extends Component {
                     </div>
                 </div>
             </nav>
-            {this.props.children}
+            {this.props.children} 
+            {/* this enables files to be inside of PageWraper.js s html() */}
         </div>
         );
     }

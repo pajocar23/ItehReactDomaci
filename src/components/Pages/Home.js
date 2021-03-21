@@ -13,7 +13,7 @@ class Home extends Component {
             <div>
                 <Header
                 title="Welcome to our Studio"
-                subtitle="It's nice to meet you"
+                subtitle="SHOP NOW"
                 buttonText="Tell me more"
                 link="/about"
                 showButton={true}
